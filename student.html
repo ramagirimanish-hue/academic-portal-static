@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Portal - Student Details</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-background text-foreground">
+
+  <header class="header">
+    <div class="container nav-container">
+      <nav class="nav">
+        <h1 class="logo">Academic Portal</h1>
+        <div class="nav-links">
+          <a href="index.html" class="button button-outline">Dashboard</a>
+          <a href="student.html" class="button button-default">Student Details</a>
+          <a href="application.html" class="button button-outline">Application</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-content">
+    <h2 class="page-title">Student Details</h2>
+    
+    <div class="student-profile-grid">
+      <div class="card student-profile-card">
+        <div class="card-header">
+          <h3 class="card-title">Student Profile</h3>
+        </div>
+        <div class="card-content profile-details">
+          <img src="https://placeholder-image-service.onrender.com/image/150x150?prompt=Portrait of a college student with friendly expression and academic background&id=7830c43f-4c10-4330-86a5-9f0d887ee25f" alt="Profile photo of Sarah Johnson, a college student" class="profile-photo" />
+          <h3 class="profile-name">Sarah Johnson</h3>
+          <p class="profile-major">Computer Science Major</p>
+          <p class="profile-id">ID: STU-2023-4872</p>
+        </div>
+      </div>
+      
+      <div class="card academic-info-card">
+        <div class="card-header">
+          <h3 class="card-title">Academic Information</h3>
+        </div>
+        <div class="card-content">
+          <div class="academic-details">
+            <div>
+              <h4 class="details-heading">Personal Details</h4>
+              <div class="info-list">
+                <p><span class="label-text">Email:</span> sarah.j@university.edu</p>
+                <p><span class="label-text">Phone:</span> (555) 123-4567</p>
+                <p><span class="label-text">Address:</span> 123 College Ave, Campus Town</p>
+              </div>
+            </div>
+            
+            <div>
+              <h4 class="details-heading">Academic Record</h4>
+              <div class="info-list">
+                <p><span class="label-text">GPA:</span> 3.82</p>
+                <p><span class="label-text">Credits:</span> 96/120</p>
+                <p><span class="label-text">Status:</span> Full-time</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="current-courses">
+            <h4 class="details-heading">Current Courses</h4>
+            <div class="course-list">
+              <div class="course-item">
+                <span>Advanced Algorithms</span>
+                <span class="course-grade">A</span>
+              </div>
+              <div class="course-item">
+                <span>Database Systems</span>
+                <span class="course-grade">A-</span>
+              </div>
+              <div class="course-item">
+                <span>Software Engineering</span>
+                <span class="course-grade">B+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Portal - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-background text-foreground">
+
+  <header class="header">
+    <div class="container nav-container">
+      <nav class="nav">
+        <h1 class="logo">Academic Portal</h1>
+        <div class="nav-links">
+          <a href="index.html" class="button button-default">Dashboard</a>
+          <a href="student.html" class="button button-outline">Student Details</a>
+          <a href="application.html" class="button button-outline">Application</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-content">
+    <h2 class="page-title">Dashboard</h2>
+    
+    <div class="stats-grid">
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">Total Students</h3>
+        </div>
+        <div class="card-content">
+          <p class="stat-number">247</p>
+          <p class="stat-description">+12 since last month</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">Applications</h3>
+        </div>
+        <div class="card-content">
+          <p class="stat-number">42</p>
+          <p class="stat-description">Pending review</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <h3 class="card-title">Completion Rate</h3>
+        </div>
+        <div class="card-content">
+          <p class="stat-number">89%</p>
+          <p class="stat-description">Course completion</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-header">
+        <h3 class="card-title">Recent Activity</h3>
+        <p class="card-description">Latest updates and notifications</p>
+      </div>
+      <div class="card-content">
+        <div class="activity-list">
+          <div class="activity-item">
+            <div class="activity-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div>
+              <p class="activity-text">New application submitted</p>
+              <p class="activity-subtext">Jessica Chen applied for Advanced Mathematics</p>
+              <p class="activity-time">2 hours ago</p>
+            </div>
+          </div>
+          
+          <div class="activity-item">
+            <div class="activity-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <div>
+              <p class="activity-text">Grade updated</p>
+              <p class="activity-subtext">Michael Rodriguez's Calculus grade was updated</p>
+              <p class="activity-time">5 hours ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
